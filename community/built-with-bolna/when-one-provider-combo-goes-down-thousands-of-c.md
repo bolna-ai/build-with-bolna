@@ -1,8 +1,8 @@
 ---
 name: When One Provider Combo Goes Down, Thousands of Calls Suffer - Here's How to Catch It in 30 Minutes
 category: Blog
-url: https://app.notion.com/p/When-One-Provider-Combo-Goes-Down-Thousands-of-Calls-Suffer-Here-s-How-to-Catch-It-in-30-Minutes-39737788fd43807a96f3eb51794b20a2
 author: Dabbu Mothsera
+authorUrl: https://github.com/lazerbeam47
 submitted: 2026-07-27
 ---
 
