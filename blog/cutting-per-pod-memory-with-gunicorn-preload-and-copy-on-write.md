@@ -1,9 +1,10 @@
 ---
 title: Cutting per-pod memory with gunicorn preload and copy-on-write
 author: Sanket
+authorUrl: https://github.com/san0808
 date: 2026-07-27
 categories: Engineering, Reliability
-image: https://www.bolna.ai/builders/blog-images/gunicorn-preload-copy-on-write.png
+socialImage: https://www.bolna.ai/builders/blog-images/gunicorn-preload-copy-on-write.png
 ---
 
 *We run a real-time voice service whose containers were using too much memory and restarting during calls. Two findings: the restarts were liveness-probe timeouts rather than out-of-memory kills, and most of the memory was the same libraries loaded once per worker. Running the workers under a preloading server with copy-on-write sharing addressed both. Here is the reasoning, the fix, and the gotchas.*
