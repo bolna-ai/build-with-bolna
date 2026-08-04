@@ -97,9 +97,6 @@ Sustained over several days, including peak traffic:
 - The marginal cost of an extra worker fell to tens of megabytes, versus a full copy, measured by PSS.
 - Out-of-memory events: zero. Liveness-driven restarts: effectively eliminated.
 
-> Image: a two-bar before/after of per-pod memory with the limit line drawn across the top.
-> 
-
 ## Takeaways
 
 - Identify why a container is restarting before trying to fix it. An out-of-memory kill and a liveness-probe timeout look identical but call for opposite fixes.
