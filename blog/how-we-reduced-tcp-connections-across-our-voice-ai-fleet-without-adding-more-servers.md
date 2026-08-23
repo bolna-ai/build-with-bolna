@@ -3,6 +3,7 @@ title: How We Reduced TCP Connections Across Our Voice AI Fleet Without Adding M
 author: Mujeer Ahmed
 date: 2026-07-27
 categories: Engineering, Reliability
+canonicalUrl: https://bolna.ai/blog/reduced-tcp-connections-voice-ai-fleet
 ---
 
 Recently, while looking at our WebSocket server fleet, we noticed something interesting.
