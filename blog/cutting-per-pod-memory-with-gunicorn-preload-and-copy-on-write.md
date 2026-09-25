@@ -111,4 +111,4 @@ Sustained over several days, including peak traffic:
 2. gunicorn (the pre-fork worker model and preloading): https://gunicorn.org/
 3. Python gc.freeze(): https://docs.python.org/3/library/gc.html#gc.freeze
 4. Instagram Engineering, Copy-on-write friendly Python garbage collection (the origin of gc.freeze): https://instagram-engineering.com/copy-on-write-friendly-python-garbage-collection-ad6ed5233ddf
-5. Rippling, a Gunicorn pre-fork : https://www.rippling.com/blog/rippling-gunicorn-pre-fork-journey-memory-savings-and-cost-reduction
+5. Rippling, a Gunicorn pre-fork: https://www.rippling.com/blog/rippling-gunicorn-pre-fork-journey-memory-savings-and-cost-reduction
