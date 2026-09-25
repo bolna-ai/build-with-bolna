@@ -1,6 +1,6 @@
 ---
 name: Using the Bolna n8n community node
-category: Video
+category: Website
 url: https://www.loom.com/share/f1c7ec34cfa344d8a932db05ba5d4191
 author: Harsh Mer
 authorUrl: https://github.com/Harsh-Mer623
